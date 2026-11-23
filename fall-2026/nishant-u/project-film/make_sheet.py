@@ -9,7 +9,7 @@ closes on a drawn beat, BEND.
 
 Narration is EXACTLY Nishant's script (SCRIPT below), split into beats. Revised by Nishant on
 2026-11-23 before the final render: "a person will approve every step" and "will say \"insufficient\""
-(future tense: neither is built yet). The script asserts that the
+(future tense: neither is built yet). Closing line lengthened the same day. The script asserts that the
 beats, joined with single spaces, reproduce SCRIPT character for character. The only voice-only
 spelling is "Nee-shaant", which is already in the script; on-screen text and every written file say
 "Nishant".
@@ -34,7 +34,7 @@ What already exists? LinkedIn Job Alerts email new postings that match a saved s
 
 The data is public: the job boards of Faire, Instacart and Poshmark on Greenhouse and Ashby, plus a fictional résumé. No real personal data. Step one, already built: a watch that saves every raw response and reports only new postings. Each posting gets two verdicts: a rule anyone can recompute, and Claude's judgment in a fixed format that a validator checks. Step two, also built: a bounded loop over five boards, with budgets, an exit status, and a permission policy enforced in code. Allowed hosts only, and writes only inside its own folder. Next comes a filter with an evidence-checked shortlist, a small tool server so Claude can call the agent, then a planner with memory, and a human approval gate. What I need: Python's standard library, my laptop, and my Claude Code login. The judge calls run there, with no API key and no paid compute.
 
-How will I know it works? First, against my own labels. I hand-labeled twenty postings, kept ten sealed, and ran the prompt on them once: ten out of ten, but the 95 percent interval runs from 69 to 100 percent, so ten cases can't prove much. Second, with checks that don't trust the agent. In one live run, the loop said "finished, zero new" for an empty board, and an independent check of the raw responses caught it. For the final project I'll use a larger held-out set with harder, borderline postings, at least five deliberate failure cases, a failure I predict and trigger on purpose, and a stranger running it from the README. It works if it agrees with my labels on postings it hasn't seen, abstains instead of guessing, and every failure is caught by something other than the agent's own report. I'm Nee-shaant.
+How will I know it works? First, against my own labels. I hand-labeled twenty postings, kept ten sealed, and ran the prompt on them once: ten out of ten, but the 95 percent interval runs from 69 to 100 percent, so ten cases can't prove much. Second, with checks that don't trust the agent. In one live run, the loop said "finished, zero new" for an empty board, and an independent check of the raw responses caught it. For the final project I'll use a larger held-out set with harder, borderline postings, at least five deliberate failure cases, a failure I predict and trigger on purpose, and a stranger running it from the README. It works if it agrees with my labels on postings it hasn't seen, abstains instead of guessing, and every failure is caught by something other than the agent's own report. I'm Nee-shaant, and that's the agent I'm building: one that shows its evidence, and says so when it can't tell. Thanks for watching.
 """
 
 SPARSE_REASON = ("show-tell style: one drawn object or scene on a cream stage per beat, minimal labels, "
@@ -178,10 +178,12 @@ BEATS = [
   [{"at": 0.25, "event": "agrees: check"}, {"at": 0.55, "event": "abstains: ring"},
    {"at": 0.85, "event": "outside check catches the failure"}]),
  ("BEND", "BEND_Close", 3,
-  "I'm Nee-shaant.",
+  "I'm Nee-shaant, and that's the agent I'm building: one that shows its evidence, and says so when it can't tell. Thanks for watching.",
   ["Nishant U", "Job-search agent"], False,
-  "The agent block from B00 sits on its plinth; the name and working title land beside it.",
-  [{"at": 0.2, "event": "agent block on plinth"}, {"at": 0.4, "event": "name and title land"}]),
+  "The agent block from B00 sits on its plinth; the name and working title land beside it; a posting slip "
+  "gets a check (shows its evidence) and an open ring lands beside it (says so when it can't tell).",
+  [{"at": 0.1, "event": "name and title land"}, {"at": 0.35, "event": "spark on the agent"},
+   {"at": 0.6, "event": "slip + check"}, {"at": 0.8, "event": "open ring"}]),
 ]
 
 # ── checks: verbatim script, part order, labels, constructed flags ────────────────────────────

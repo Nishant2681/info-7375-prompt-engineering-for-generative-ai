@@ -55,14 +55,15 @@ remaining note needs a fix.
 | 31 | B18 | An independent check of the raw responses caught it. | unverified — Nishant to sign off | JS2 `agent2/check.py` (reads only saved raw responses); `FINISHED-WRONG.md`; README: the check flags `zero-postings greenhouse:poshmark` | — |
 | 32 | B19 | For the final project: a larger held-out set with harder, borderline postings, at least five deliberate failure cases, a failure predicted and triggered on purpose, and a stranger running it from the README. | unverified — Nishant to sign off | Author's plan; pitch film brief and B07 narration (branch `nishant-u-final-project-film`) | Planned; labeled "constructed" on screen. JS1 sign-off lists "harder or borderline postings" as not checked |
 | 33 | B20 | It works if it agrees with my labels on unseen postings, abstains instead of guessing, and every failure is caught by something other than the agent's own report. | unverified — Nishant to sign off | Author's success criteria (the script) | A plan, not a result; labeled "constructed" on screen |
+| 34 | BEND | That's the agent I'm building: one that shows its evidence, and says so when it can't tell. | unverified — Nishant to sign off | Author's statement summarizing the planned behavior: rows 5, 9 and 32 (evidence: JS1 validator checks quotes against the cited field; "insufficient": not yet built, stated as future in B04) | Present tense for the agent as designed; the "can't tell" half is not built yet. Added 2026-11-23 when the closing line was lengthened |
 
 ## On-screen text
 
 | # | Beat | Text | Verdict | Source | Note |
 |---|---|---|---|---|---|
-| 34 | B06 | "careery.pro review, 2026" | unverified — Nishant to sign off | as row 12 | — |
-| 35 | B16 | "10/10" | unverified — Nishant to sign off | as row 28 | — |
-| 36 | B17 | "95% interval", "69–100%" | unverified — Nishant to sign off | as row 29 | Rounded from 69.2% |
-| 37 | B18 | "finished, 0 new" | unverified — Nishant to sign off | as row 30 | — |
-| 38 | B19 | "5 failures" | unverified — Nishant to sign off | as row 32 | Planned ("at least five") |
-| 39 | BEND | "Nishant U", "Job-search agent" | unverified — Nishant to sign off | Author | No claim |
+| 35 | B06 | "careery.pro review, 2026" | unverified — Nishant to sign off | as row 12 | — |
+| 36 | B16 | "10/10" | unverified — Nishant to sign off | as row 28 | — |
+| 37 | B17 | "95% interval", "69–100%" | unverified — Nishant to sign off | as row 29 | Rounded from 69.2% |
+| 38 | B18 | "finished, 0 new" | unverified — Nishant to sign off | as row 30 | — |
+| 39 | B19 | "5 failures" | unverified — Nishant to sign off | as row 32 | Planned ("at least five") |
+| 40 | BEND | "Nishant U", "Job-search agent" | unverified — Nishant to sign off | Author | No claim |

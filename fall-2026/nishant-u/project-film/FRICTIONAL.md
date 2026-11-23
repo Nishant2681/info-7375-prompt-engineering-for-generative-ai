@@ -76,3 +76,14 @@ now: it would wipe the build stamps in `beat_sheet.json` (show-tell skill note).
 **Not checked.** I haven't watched the master yet. The FACTCHECK rows are unsigned. The careery.pro review
 was not reopened. `scripts/validate_course.py` exits 1, but only on files outside my folder that are
 already on `origin/main` (glossary deck links, other students' `.tsx`/`.ts` files).
+
+**The ending sounded abrupt.** When I watched the film, the closing "I'm Nee-shaant." sounded abrupt,
+so I changed it before submitting: "I'm Nee-shaant, and that's the agent I'm building: one that shows
+its evidence, and says so when it can't tell. Thanks for watching." Only BEND was re-voiced (7.96 s; the
+whisper transcript matches) and re-padded by `pad_bend.py` (9.96 s with the 2.0 s tail). The BEND scene
+gained a posting slip with a check and an open ring, timed to the new phrases. Gates A and W were clean
+on it before the render. New total: 206.99 s (3:27.0). The new closing claim has its own FACTCHECK row
+(34): an author's statement summarizing the planned behaviour; the "can't tell" part is not built yet.
+Gates after the change: the fourth `art run` re-rendered only BEND (Gate B clean; Gate V 44 frames,
+0 BLOCKER, 0 MAJOR). `art final`: Gate T PASS, render-integrity `ready`, Gate V on the master 44 frames,
+0 BLOCKER, 0 MAJOR. Master 207.46 s (3:27.5). Local paths in `verified.json` replaced with `~` again.

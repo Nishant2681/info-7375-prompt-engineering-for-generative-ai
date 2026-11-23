@@ -1,6 +1,6 @@
 # A job-search agent that shows its evidence — Final Project Film
 
-**Nishant U** · INFO 7375, Fall 2026 · runtime **3:20.75** (200.75 s) · 3840×2160, 24 fps · 14.0 MB
+**Nishant U** · INFO 7375, Fall 2026 · runtime **3:27.46** (207.46 s) · 3840×2160, 24 fps · 14.4 MB
 
 ## What this is
 
@@ -19,7 +19,8 @@ final-project evaluation plan.
 It is a show-tell film (Brutalist toolkit): one isometric Manim drawing per beat, labels of a few
 words, and my script read word for word by the free local Kokoro voice `am_michael`, with my name
 spelled "Nee-shaant" for the voice only. No persona, no Your Turn, no title outro; the film closes on a
-drawn beat, BEND. No Claude responses appear in the film. No logos are drawn.
+drawn beat, BEND: "I'm Nee-shaant, and that's the agent I'm building: one that shows its evidence,
+and says so when it can't tell. Thanks for watching." No Claude responses appear in the film. No logos are drawn.
 
 **Not yet signed off:** every row of `FACTCHECK.md` is "unverified — Nishant to sign off".
 
@@ -49,7 +50,7 @@ drawn beat, BEND. No Claude responses appear in the film. No logos are drawn.
 | `_qc/REPORT.md`, `_qc/contact_sheet.png` | Gate V, frame-level visual QC, run by `art final` on the master | 44 frames, 0 BLOCKER, 0 MAJOR (the sheet shows the first 16 sampled frames) |
 | `qc-sheet.png` | Review contact sheet, one mid-frame per beat (all 22) | — |
 | `TYPECHECK.md` | Gate T, type lock | PASS, 22 beats, 0 FAILs |
-| `layout_audit.md`, `layout_audit.json` | Gate B, Manim layout audit (holds the **last** scenes audited, B02 and B04; every scene passed before its clip was slotted) | clean |
+| `layout_audit.md`, `layout_audit.json` | Gate B, Manim layout audit (holds the **last** scene audited, BEND; every scene passed before its clip was slotted) | clean |
 | `final-project-film-nishant-u.verified.json` | Render-integrity | `status: ready` |
 
 Also passed in `art run` (terminal output only): build_safety, Gate F (paperwork), Gate L (beat mix),
