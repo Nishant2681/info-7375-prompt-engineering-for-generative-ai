@@ -22,7 +22,7 @@ spelled "Nee-shaant" for the voice only. No persona, no Your Turn, no title outr
 drawn beat, BEND: "I'm Nee-shaant, and that's the agent I'm building: one that shows its evidence,
 and says so when it can't tell. Thanks for watching." No Claude responses appear in the film. No logos are drawn.
 
-**Not yet signed off:** every row of `FACTCHECK.md` is "unverified — Nishant to sign off".
+**FACTCHECK.md signed off by Nishant, 2026-11-23.**
 
 ## Files
 
@@ -36,7 +36,7 @@ and says so when it can't tell. Thanks for watching." No Claude responses appear
 | `scenes.py` | The 22 isometric Manim scenes (the show-tell kit `iso_kit.py` pasted in, then the film's scenes) |
 | `mp3/timings.json` | Measured narration duration of each beat (the mp3s are regenerated, not committed) |
 | `SHOTLIST.md` | Beat-by-beat: start, part, duration, labels, constructed flag, picture |
-| `FACTCHECK.md` | Every factual claim with its source (JS1, JS2, PR #30, PR #44, careery.pro review, …), unsigned |
+| `FACTCHECK.md` | Every factual claim with its source (JS1, JS2, PR #30, PR #44, careery.pro review, …), signed off by me |
 | `PROMPTS.md` | "Generation prompts: none", plus the build commands |
 | `BUILD-PROMPT.md` | The prompts I gave Claude Code, in order, and the exact rebuild commands |
 | `SOURCES.md` | Tools and licences, sources, who made what |
@@ -56,7 +56,7 @@ and says so when it can't tell. Thanks for watching." No Claude responses appear
 Also passed in `art run` (terminal output only): build_safety, Gate F (paperwork), Gate L (beat mix),
 Gate SHAPE (not a finance reel), Gate A (static pre-check, 22/22 clean), Gate W (contrast and margins;
 it skips `BEND_Close` by name, and a renamed copy was clean). `factcheck_check.py` (optional, not part of
-`art run`/`art final`) reports every row as unresolved until I sign off.
+`art run`/`art final`): see FRICTIONAL.md for its result after sign-off.
 
 ## Rebuild
 

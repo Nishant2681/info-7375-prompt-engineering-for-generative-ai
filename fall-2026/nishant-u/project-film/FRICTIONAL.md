@@ -73,8 +73,8 @@ ClaudeTitleOutro) are advisory and expected without the persona bookends. `verif
 local paths; my user folder was replaced with `~` before committing. `make_sheet.py` must not be re-run
 now: it would wipe the build stamps in `beat_sheet.json` (show-tell skill note).
 
-**Not checked.** I haven't watched the master yet. The FACTCHECK rows are unsigned. The careery.pro review
-was not reopened. `scripts/validate_course.py` exits 1, but only on files outside my folder that are
+**Not checked.** Watched the full master on 2026-11-23. The careery.pro review was not reopened
+in this session. `scripts/validate_course.py` exits 1, but only on files outside my folder that are
 already on `origin/main` (glossary deck links, other students' `.tsx`/`.ts` files).
 
 **The ending sounded abrupt.** When I watched the film, the closing "I'm Nee-shaant." sounded abrupt,
@@ -87,3 +87,7 @@ on it before the render. New total: 206.99 s (3:27.0). The new closing claim has
 Gates after the change: the fourth `art run` re-rendered only BEND (Gate B clean; Gate V 44 frames,
 0 BLOCKER, 0 MAJOR). `art final`: Gate T PASS, render-integrity `ready`, Gate V on the master 44 frames,
 0 BLOCKER, 0 MAJOR. Master 207.46 s (3:27.5). Local paths in `verified.json` replaced with `~` again.
+
+**Fact-check signed.** I read every FACTCHECK.md row, including every Note, and watched the full master
+with the new ending. All verdicts changed to PASS; signed "Nishant U — 2026-11-23". `factcheck_check.py`:
+"clean — every row resolved, every claim-bearing beat covered" (rows=34, beats_covered=22, uncovered=0).
